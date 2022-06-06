@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h2{
+    font-size: 3rem;
+    color: black;
+    position: relative;
+}
+h2::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: navy;
+    left: 50%;
+    bottom: -10px;
+    transition: all 0.3s ease-in-out;
+}
+h2:hover{
+    cursor: pointer;
+}
+h2:hover::after{
+    cursor: pointer;
+    width: 100%;
+    left:0
+}
