@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gradient{
+    background: linear-gradient(90deg,#72ace7, #5558b6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
