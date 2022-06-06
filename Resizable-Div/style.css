@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resizable{
+    width: 15rem;
+    height: 5rem;
+    color: cornflowerblue;
+    border: 5px solid navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    resize: auto;
+}
