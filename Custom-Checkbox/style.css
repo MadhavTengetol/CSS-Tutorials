@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #3E4452;
+}
+.container{
+    max-width: 300px;
+    font-size: 13px;
+}
+ul.box-container{
+    list-style: none;
+    border: 2px solid red;
+    padding: 20px;
+}
+ul.box-container li{
+    display: inline;
+}
+ul.box-container li label{
+    display: inline-block;
+    background-color: #2b3241;
+    border: 1px solid #b1b2cf;
+    color: #b1b2cf;
+    border-radius: 25px;
+    white-space: nowrap;
+    margin: 3px 0px;
+    user-select: none;
+    transition: all .2s;
+   
+}
+
+ul.box-container li label{
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+ul.box-container li label:hover{
+    border: 1px solid #686FFd;
+}
+ul.box-container li input[type="checkbox"]:checked + label{
+    border: 1px solid #686FFd;
+    background-color: #686FFd;
+    color: #fff;
+    transition: all .2s;
+}
+ul.box-container li input[type="checkbox"]{
+    display: absolute;
+   
+}
+
+ul.box-container li input[type="checkbox"]{
+    position: absolute;
+    opacity: 0;
+   
+}
